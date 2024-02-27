@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "home-work-web-9"
+version = "0.1.0"
+description = ""
+authors = ["AndriKovalchuk <andrii.kovalchuk90@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+mongoengine = "^0.27.0"
+lxml = "^5.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
